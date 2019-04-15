@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ED1E72B9-DC9E-4938-B580-67C42D8B3D3F}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Balcao</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Balcao</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>Balcao.tsProgram</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.6.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.XML">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Infra\dbConnection.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Util\Biblioteca.cs" />
+    <Compile Include="Util\Constantes.cs" />
+    <Compile Include="Util\Log.cs" />
+    <Compile Include="View\UCadastroProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\UCadastroProduto.Designer.cs">
+      <DependentUpon>UCadastroProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UPreVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\UPreVenda.Designer.cs">
+      <DependentUpon>UPreVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UDAV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\UDAV.Designer.cs">
+      <DependentUpon>UDAV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UImportaProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\UImportaProduto.Designer.cs">
+      <DependentUpon>UImportaProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UPDVCarga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\UPDVCarga.Designer.cs">
+      <DependentUpon>UPDVCarga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VO\ClienteVO.cs" />
+    <Compile Include="VO\DavCabecalhoVO.cs" />
+    <Compile Include="VO\DAVDetalheVO.cs" />
+    <Compile Include="VO\PreVendaCabecalhoVO.cs" />
+    <Compile Include="VO\PreVendaDetalheVO.cs" />
+    <Compile Include="VO\ProdutoVO.cs" />
+    <Compile Include="VO\TurnoVO.cs" />
+    <Compile Include="VO\UnidadeProdutoVO.cs" />
+    <Content Include="App.ico" />
+    <Compile Include="Controller\ClienteController.cs" />
+    <Compile Include="Controller\DAVController.cs" />
+    <Compile Include="Controller\PreVendaController.cs" />
+    <Compile Include="Controller\ProdutoController.cs" />
+    <Compile Include="tsProgram.cs" />
+    <Compile Include="View\UMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\UMenu.Designer.cs">
+      <DependentUpon>UMenu.cs</DependentUpon>
+    </Compile>
+    <Content Include="imgBotoes\21botaoAjuda.png" />
+    <Content Include="imgBotoes\21botaoCalculadora.png" />
+    <Content Include="imgBotoes\21botaoCancelaCupom.png" />
+    <Content Include="imgBotoes\21botaoCancelaItem.png" />
+    <Content Include="imgBotoes\21botaoCliente.png" />
+    <Content Include="imgBotoes\21botaoDesconto.png" />
+    <Content Include="imgBotoes\21botaoEncerraVenda.png" />
+    <Content Include="imgBotoes\21botaoGaveta.png" />
+    <Content Include="imgBotoes\21botaoMenuFiscal.png" />
+    <Content Include="imgBotoes\21botaoMenuOperacoes.png" />
+    <Content Include="imgBotoes\21botaoMenuPrincipal.png" />
+    <Content Include="imgBotoes\21botaoPesquisa.png" />
+    <Content Include="imgBotoes\21botaoSair.png" />
+    <Content Include="imgBotoes\botaoAjuda.png" />
+    <Content Include="imgBotoes\botaoCalculadora.png" />
+    <Content Include="imgBotoes\botaoCancelaCupom.png" />
+    <Content Include="imgBotoes\botaoCancelaItem.png" />
+    <Content Include="imgBotoes\botaoCliente.png" />
+    <Content Include="imgBotoes\botaoDesconto.png" />
+    <Content Include="imgBotoes\botaoEncerraVenda.png" />
+    <Content Include="imgBotoes\botaoGaveta.png" />
+    <Content Include="imgBotoes\botaoMenuFiscal.png" />
+    <Content Include="imgBotoes\botaoMenuOperacoes.png" />
+    <Content Include="imgBotoes\botaoMenuPrincipal.png" />
+    <Content Include="imgBotoes\botaoPesquisa.png" />
+    <Content Include="imgBotoes\botaoSair.png" />
+    <Content Include="imgBotoes\cancelar16.png" />
+    <Content Include="imgBotoes\confirmar16.png" />
+    <Content Include="imgTelas\arrowleft_green16.png" />
+    <Content Include="imgTelas\arrowright_green16.png" />
+    <Content Include="imgTelas\btnLocalizar05.gif" />
+    <Content Include="imgTelas\Login2.jpg" />
+    <Content Include="imgTelas\telaCadeadoFechado01.png" />
+    <Content Include="imgTelas\telaCarrinho02.png" />
+    <Content Include="imgTelas\telaChave06.png" />
+    <Content Include="imgTelas\telaDinheiro01.png" />
+    <Content Include="imgTelas\telaDinheiro03.png" />
+    <Content Include="imgTelas\telaDinheiro05.png" />
+    <Content Include="imgTelas\telaDocumento04.png" />
+    <Content Include="imgTelas\telaDocumento07.png" />
+    <Content Include="imgTelas\telaExcluirProduto.png" />
+    <Content Include="imgTelas\telaHomem09.png" />
+    <Content Include="imgTelas\telaLupa06.png" />
+    <Content Include="imgTelas\telaMesclar01.png" />
+    <Content Include="imgTelas\telaMonitor04.png" />
+    <Content Include="imgTelas\telaNotaFiscal.png" />
+    <Content Include="imgTelas\telaPrint09.png" />
+    <Content Include="imgTelas\telaRegistradora01.png" />
+    <Content Include="imgTelas\telaRelatorio01.png" />
+    <Content Include="imgTelas\telaRelatorio02.png" />
+    <Content Include="imgTelas\telaSair01.png" />
+    <Content Include="imgTelas\telaUsuarioSenha01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UCadastroProduto.resx">
+      <DependentUpon>UCadastroProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UPreVenda.resx">
+      <DependentUpon>UPreVenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UDAV.resx">
+      <DependentUpon>UDAV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UImportaProduto.resx">
+      <DependentUpon>UImportaProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UMenu.resx">
+      <DependentUpon>UMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UPDVCarga.resx">
+      <DependentUpon>UPDVCarga.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

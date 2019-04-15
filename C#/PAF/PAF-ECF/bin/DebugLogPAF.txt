@@ -1,0 +1,19 @@
+17/09/2014 03:54:20:	System.Exception: Conversão especificada não é válida.
+   em PafEcf.Controller.LogssController.AtualizarQuantidades() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Controller\LogssController.cs:linha 156
+   em PafEcf.Util.PAFUtil.GravarR06(String pSimbolo) na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Util\PAFUtil.cs:linha 1141
+18/09/2014 00:40:24:	ACBrFramework.ACBrException: Unable to open file "C:\Arquivos de programas\Microsoft Visual Studio 10.0\Common7\IDE\TEF\ACBr_TEF_DIAL_001.tef"
+   em ACBrFramework.TEFD.ACBrTEFD.CheckResult(Int32 ret) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\TEFD\ACBrTEFD.cs:linha 717
+   em ACBrFramework.TEFD.ACBrTEFD.CRT(Decimal valor, String indiceFPG_ECF, String documentoVinculado, Int32 moeda) na c:\Componentes\C#\ACBrFramework\ACBrFramework.Net\ACBrFramework.Net\TEFD\ACBrTEFD.cs:linha 625
+   em PafEcf.View.EfetuaPagamento.botaoSim_Click(Object sender, EventArgs e) na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\View\EfetuaPagamento.cs:linha 423
+19/09/2014 00:40:48:	System.Exception: Conversão especificada não é válida.
+   em PafEcf.Controller.LogssController.AtualizarQuantidades() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Controller\LogssController.cs:linha 156
+   em PafEcf.Util.PAFUtil.GravarR06(String pSimbolo) na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Util\PAFUtil.cs:linha 1141
+19/09/2014 00:49:58:	System.InvalidOperationException: O objeto nulo deve ter um valor.
+   em System.Nullable`1.get_Value()
+   em PafEcf.View.EncerraMovimento.ImprimeFechamento() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\View\EncerraMovimento.cs:linha 317
+19/09/2014 00:52:33:	System.Exception: Conversão especificada não é válida.
+   em PafEcf.Controller.LogssController.AtualizarQuantidades() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Controller\LogssController.cs:linha 156
+   em PafEcf.Util.PAFUtil.GravarR06(String pSimbolo) na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\Util\PAFUtil.cs:linha 1141
+19/09/2014 01:37:38:	System.InvalidOperationException: O objeto nulo deve ter um valor.
+   em System.Nullable`1.get_Value()
+   em PafEcf.View.Caixa.Sangria() na c:\Projetos\T2Ti ERP 2.0\C#\PAF\PAF-ECF\View\Caixa.cs:linha 707

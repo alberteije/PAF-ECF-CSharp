@@ -1,0 +1,14 @@
+C:\Projetos\AlbertEijePDV_C\Fontes\Balcao\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\AlbertEijePDV_C\Fontes\Balcao\obj\Debug\Balcao.Properties.Resources.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\Balcao\obj\Debug\Balcao.View.FMenu.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\Balcao\obj\Debug\GenerateResource.read.1.tlog
+C:\Projetos\AlbertEijePDV_C\Fontes\Balcao\obj\Debug\GenerateResource.write.1.tlog
+C:\Projetos\AlbertEijePDV_C\Fontes\Balcao\bin\Debug\Balcao.exe
+C:\Projetos\AlbertEijePDV_C\Fontes\Balcao\bin\Debug\Balcao.pdb
+C:\Projetos\AlbertEijePDV_C\Fontes\Balcao\obj\Debug\Balcao.exe
+C:\Projetos\AlbertEijePDV_C\Fontes\Balcao\obj\Debug\Balcao.pdb
+C:\Projetos\AlbertEijePDV_C\Fontes\Balcao\obj\Debug\Balcao.View.FPDVCarga.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\Balcao\obj\Debug\Balcao.View.FDAV.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\Balcao\obj\Debug\Balcao.View.FPreVenda.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\Balcao\obj\Debug\Balcao.View.FImportaProduto.resources
+C:\Projetos\AlbertEijePDV_C\Fontes\Balcao\obj\Debug\Balcao.View.FCadastroProduto.resources
