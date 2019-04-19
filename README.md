@@ -53,7 +53,7 @@
 								<li>Recebe os arquivos TXT em formato JSON dos terminais de caixa e persiste nas tabelas da retaguarda</li>
 							</ul>						
 	<hr />
-						Esse protótipo feito no Visual Studio Express 2013.
+						Esse protótipo foi desenvolvido no Visual Studio Express 2013.
 	<br /><br />
 						Enjoy it.
 </html>
