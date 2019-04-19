@@ -1,9 +1,9 @@
-<html>						<h1>Protótipo</h1>
-						Segue a descrição de algumas das funcionalidades do protótipo que acompanha o livro. 
+<html>						<h1>PAF-ECF - C#</h1>
+						Este protótipo funcional foi desenvolvido juntamente com o e-book Manual de Implantação do PAF-ECF [C#] disponível em http://www.alberteije.com/livros/c_paf/. Abaixo você pode ver a descrição de algumas funcionalidades desse protótipo.
 						<br />
 						<h2>Frente de Caixa - PAF-ECF</h2>
 							<center>
-								<img src="../../images/telas/c_073.jpg" alt="telas" />
+								<img src="http://www.alberteije.com/images/telas/c_073.jpg" alt="telas" />
 							</center>
 							<br />
 							<ul>
@@ -22,10 +22,9 @@
 								<li>Processamento de DAV;</li>
 								<li>Outros.</li>
 							</ul>						
-
 						<h2>Balcão</h2>
 							<center>
-								<img src="../../images/telas/c_116.jpg" alt="telas" />
+								<img src="http://www.alberteije.com/images/telas/c_116.jpg" alt="telas" />
 							</center>
 							<br />
 							<ul>
@@ -34,10 +33,9 @@
 								<li>Cadastro de Produtos;</li>
 								<li>Geração de carga para terminais de caixa.</li>
 							</ul>						
-
-						<h2>Configurador</h2>
+<h2>Configurador</h2>
 							<center>
-								<img src="../../images/telas/c_126.png" alt="telas" />
+								<img src="http://www.alberteije.com/images/telas/c_126.png" alt="telas" />
 							</center>
 							<br />
 							<ul>
@@ -46,18 +44,16 @@
 								<li>Configura Arquivo Auxiliar;</li>
 								<li>Configura Arquivo de Conexão.</li>
 							</ul>						
-
-						<h2>Integrador</h2>
+<h2>Integrador</h2>
 							<center>
-								<img src="../../images/telas/c_128.jpg" alt="telas" />
+								<img src="http://www.alberteije.com/images/telas/c_128.jpg" alt="telas" />
 							</center>
 							<br />
 							<ul>
 								<li>Recebe os arquivos TXT em formato JSON dos terminais de caixa e persiste nas tabelas da retaguarda</li>
 							</ul>						
-
-						<hr />
-						Entre em contato com o autor para receber o código fonte das aplicações que compõem o Protótipo: PAF-ECF, Balcão, Configurador, Integrador e Servidor. 
-						Protótipo feito no Visual Studio Express 2013.
-						O código do protótipo não é explicado passo a passo no e-book.
+	<hr />
+						Esse protótipo feito no Visual Studio Express 2013.
+	<br /><br />
+						Enjoy it.
 </html>
