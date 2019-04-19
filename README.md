@@ -1,4 +1,4 @@
-						<h1>Protótipo</h1>
+<html>						<h1>Protótipo</h1>
 						Segue a descrição de algumas das funcionalidades do protótipo que acompanha o livro. 
 						<br />
 						<h2>Frente de Caixa - PAF-ECF</h2>
@@ -60,3 +60,4 @@
 						Entre em contato com o autor para receber o código fonte das aplicações que compõem o Protótipo: PAF-ECF, Balcão, Configurador, Integrador e Servidor. 
 						Protótipo feito no Visual Studio Express 2013.
 						O código do protótipo não é explicado passo a passo no e-book.
+</html>
